@@ -1,0 +1,89 @@
+# Django #
+##########
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+migrations/
+media/
+media
+
+# Python #
+##########
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info
+dist/
+build/
+*.egg-info/
+*.egg
+*.pyc
+
+# Backup files #
+################
+*~
+*.swp
+*.swo
+.*.swp
+
+# VS Code #
+###########
+.vscode/
+*.code-workspace
+
+# Operating Systems #
+#####################
+.DS_Store  # macOS
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db  # Windows
+Thumbs.db
+*.WindowsIconCache
+desktop.ini
+recycle.bin  # Linux
+*.fuse_hidden*
+*.Trash-*
+
+# Environment and Configuration #
+#################################
+*.env
+*.env.*
+!*.env.example  # You can choose to keep an example .env file for reference
+*.conf
+*.ini
+*.yml
+!*.yml.example  # Similarly, for .yml files
+
+# Packages #
+############
+
+requirements/
+*.egg
+*.egg-info
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports #
+################################
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# celery beat schedule file #
+#############################
+celerybeat-schedule.*
